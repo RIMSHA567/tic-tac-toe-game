@@ -1,0 +1,91 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+h1{
+   padding-top: 20px;
+}
+body{
+    background-color: aquamarine;
+}
+
+main{
+  text-align: center;
+}
+
+.container{
+
+    height: 70vh;
+    width: 98vw;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.game{
+   
+   
+    /* border: 1px solid black; */
+    height: 55vh;         
+    width: 40vw;
+   
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+   
+}
+
+.box{
+
+    height: 17vh;
+    width: 10vw;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 4px 4px 4px rgba(84, 84, 171, 0.869) ;
+    font-size: 5rem;
+    background-color: beige;
+    cursor: pointer;
+}
+
+#reset{
+
+    padding: 10px;
+    border-radius: 0.5rem;
+    color: aliceblue;
+    background-color: black;
+    cursor: pointer;
+}
+
+
+.msg-container{
+    height: 37rem;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.hide{
+    display: none;
+}
+
+.win-msg{
+    color:red ;
+    font-size: 2rem;
+}
+
+.newgame{
+     padding: 10px;
+     border-radius: 0.5rem;
+     color: aliceblue;
+     background-color: black;
+     cursor: pointer;
+    margin-top: 1.5rem;
+}
